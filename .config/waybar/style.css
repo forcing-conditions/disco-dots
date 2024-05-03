@@ -1,0 +1,33 @@
+* {
+	font-size: 14px;
+	font-family:Ubuntu Mono;
+	font-weight: bold;
+}
+window#waybar {
+	background: transparent;
+	color: white;
+}
+
+#clock {
+	margin: 0 2px;
+}
+
+#pulseaudio {
+	margin: 0 4px;
+}
+
+#window {
+	background-color: rgba(0,0,0,0.3);
+	font-size:12px;
+	font-weight: bold;
+}
+#workspaces button {
+	color: grey;
+	background: transparent;
+	padding: 0 5px;
+}
+
+#workspaces button.active {
+	color: white;
+}
+
